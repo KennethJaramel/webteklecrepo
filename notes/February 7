@@ -1,0 +1,23 @@
+HTTP Request Message
+1.) Request Line
+ -Method
+    -Standard Method
+     GET -most commonly used HTTP Method
+     HEAD
+     POST - submit data to server
+    -Extension Method
+ -Request URI
+ -HTTP Protocol Version
+2.) Message Header (general, request, and/or entity header)
+ -General Header Fields
+ -Request Header Fields
+ -Response Header Fields
+ -Entity Header Fields
+3.) Empty Line
+4.) Message Body a.k.a payload (optional)
+
+HTTP Response Message
+1.) Status Line
+ -HTTP Protocol Version
+ -Status Code: 3 digit number
+ -Reason Phrase
