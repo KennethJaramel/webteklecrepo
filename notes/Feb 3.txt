@@ -1,6 +1,15 @@
 HTTP - HyperText Transfer Protocol
-- Tim berners-Lee
+- invented by Tim berners-Lee
 -jointly developed by w3c(World Wide Web) & IETF(Internet Eng. Task Force)
+-application layer communications protocol used to access resources
+
+HTTP 0.9(1991)
+HTTP 1.0(RFC 1945, 1996 May)
+HTTP 1.1(RFC 2068 Jan 1997, RFC 2616 Jun 1999) RFC 7230-723*
+
+HTTP is a stateless communications protocol
+-servers do not keep information about clients in between requests
+
 HTTP provides support for other functionalities
 - cache control
 - content media type (MIME) specification
