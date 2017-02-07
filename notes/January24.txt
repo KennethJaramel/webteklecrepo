@@ -2,8 +2,11 @@
 >connects computer together
 >forming network in which any computer communicate with other computer
 
+Vinton Cerf - Father of internet
+
 Internet Established:
 	1969 ARPANET(DARPA)
+	1972 - first popular application
 	1974 - high level application(email)
 
 Network
@@ -11,6 +14,7 @@ Network
 
 Protocols 
 >information that travels over the internet
+>set of rules need to be followed
 
 Nodes
 >hardware of network
@@ -29,7 +33,7 @@ usenet
 >worldwide distributed discussion system available
 
 1989
->Sir Tim Berners-Lee (CERN)
+>Sir Tim Berners-Lee (CERN) - Father of the web
 >HTTP, HTML, URL
 >web server
 >web client
