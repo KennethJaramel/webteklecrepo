@@ -1,0 +1,28 @@
+HTTP - HyperText Transfer Protocol
+- Tim berners-Lee
+-jointly developed by w3c(World Wide Web) & IETF(Internet Eng. Task Force)
+HTTP provides support for other functionalities
+- cache control
+- content media type (MIME) specification
+- language and character set specification
+- content/transfer codings
+- client-server protocol negotiations'
+- persistent connections
+- request pipe-lining
+- authentication/authorization
+
+~Connection
+~Request
+~Response
+~Disconnection
+
+HTTP Resource Addressing
+- HTTP Resources are identified useing URI's or more specifically, HTTP URL
+    - scheme (http or https)
+    - authority
+	- user information or authentication on credentials
+	- host
+	- domain name (resolved o an IP address using DNS) of the server where the resource resides (or will be created)
+	- port name
+    - path to resource (resolved relative to the doc. root on the server)
+	- may refer to a static or dynamic resource
