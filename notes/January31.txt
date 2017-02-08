@@ -1,0 +1,36 @@
+HTTP
+  >application layer communications protocol used to access resources (hypertext/hypermedia)
+   on the World Wide Web
+  >invented by Tim Berners-Lee
+  >jointly developed by the W3C and IETF(Internet Engineering Task Force)
+  >version history:
+	HTTP 0.9 (1991)
+	HTTP 1.0 (RFC 1945, May 1996)
+	HTTP 1.1 (RFC 2068 Jan 1997, RFC 2616 Jun 1999),
+	RFC 7230-7235(Jun 2014)
+	HTTP 2 (RFC 7540 May 2015)
+  >HTTP runs on top of TCP/IP, using TCP port 80 by default, or TCP port 443 for HTTPS
+   (HTTP over SSL/TLS)
+  >HTTP is based on a client-server architecture
+     -clients, a.k.a. user agents(UA)
+	-web browsers, web crawlers/spiders, other end user tools & application
+HTTPS
+  -provides encrypted pannel
+  -secure channel
+Servers:
+  -origin servers
+  -proxy servers, gateways, tunnels
+HTTP uses a request-response standard protocol
+  -the client sends an HTTP request message to the server
+  -the server processes the request and replies with an HTTP response message
+HTTP is a stateless communications protocol
+  -servers do not keep information about clients in-between request
+HTTP provides support for other functionalities, such as:
+  >cache control
+  >content media type (MIME) specification
+  >language and character specification(ASCII)
+  >content/transfer codings
+  >client-server protocol negotiations
+  >persistent connection
+  >request pipelining
+  >authentication/authorization
