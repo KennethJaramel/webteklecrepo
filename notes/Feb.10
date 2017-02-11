@@ -1,19 +1,30 @@
-+PUT
+Eight Methods
+1. GET-retrieved
+  >transfer a current selected presentation of the resource identified bynthe Request
+  >the retrieved resource returned in the message body of the response as an entity
+  >most commonly used in HTTP method
+2. HEAD
+  >same as Get,except that the entity is not included in the response
+  >used to retrieve metadata about the entity implied by the request without transferring
+    the entity itself
+3. POST
+   >submit data to server
+   >perform resource- specific processing of the entities enclosed
+4. PUT
 +  >Store the enclosed entity in the messagebody under the specified request.
 +  >Allows to upload some to to the web.
-
-+OPTIONS
+5. OPTIONS
 +  >Querying the server on what you can do to the resource.
 
-+TRACE
+6. TRACE
 +  >Used to request a loopback of the request message.
 +  >Typically used for testing/diagnostics of the request response chain.
 
-+CONNECT
+7. CONNECT
 +  >Used for HTTPS.
 +  >Also used for establishing a tunnel.
 
-+SAFE METHOD
+8. SAFE METHOD
 +  >Doesn't make any changes on the resources.
 +  >i.e(get,head,options,trace)
 
