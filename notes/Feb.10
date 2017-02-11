@@ -1,0 +1,49 @@
++PUT
++  >Store the enclosed entity in the messagebody under the specified request.
++  >Allows to upload some to to the web.
+
++OPTIONS
++  >Querying the server on what you can do to the resource.
+
++TRACE
++  >Used to request a loopback of the request message.
++  >Typically used for testing/diagnostics of the request response chain.
+
++CONNECT
++  >Used for HTTPS.
++  >Also used for establishing a tunnel.
+
++SAFE METHOD
++  >Doesn't make any changes on the resources.
++  >i.e(get,head,options,trace)
+
++IDEMPOTENT METHOD
++  >The result/response will not change even if we call it several times.
++  >i.e(put,delete,options,trace,get,head)
++  >Post is not an idempotent method because you can only use it once.
+
++CACHEABLE METHOD
+
+
++4 CATEGORIES OF HEADERS
++  >General Header Field
++  >Request Header Field
++  >Response Header Field
++  >Entity Header Field
+
++GENERAL HEADER FIELD:
++  >Cache-Control -allow to control from caching.
++  >Connection
++  >Date
++  >Pragma -general directive
++  >Trailer -a header that is provided after the data.
++  >Transfer -encoding
++  >Upgrade -use to switch to a different protocol.
++  >Via
++  >Warning
+
++DAV(Distributed Authoring and Versioning )
++  >Popular extension for HTTP.
++  >e.g.WebDAV(RFC 4918):
++  >(PROPFIND,PROPPATCH,MKCOL,COPY,MOVE,LOCK,UNLOCK)
+
