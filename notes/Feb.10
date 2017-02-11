@@ -23,7 +23,8 @@
 +  >Post is not an idempotent method because you can only use it once.
 
 +CACHEABLE METHOD
-
++  >local storage
++  >response if its cacheable or not
 
 +4 CATEGORIES OF HEADERS
 +  >General Header Field
