@@ -1,0 +1,31 @@
+Put 
+ - store the enclosed entity in the message body underthe specified Request URI
+Options 
+ - request informations
+Trace 
+ - request a loop back of the request message
+ - typically used for testing/diagnostics of the request/response chain
+Connect 
+ - request the enstablisment of a tunnel to the destination origin server, and if
+    successful there after restricts its behavior to blind forwarding of packets , in both
+     directions  until tunnel is closed.
+Extensions Methods 
+ - Profind, Proppatch, MKCOL, COPY, MOVE, LOCK, UNLOCK
+ - Safe Methods, Idempotent Methods, Cacheable Methods
+
+Safe Methods 
+ - GET
+ - HEAD
+ - OPTIONS
+ - TRACE
+
+Idempotent Methods
+ - GET
+ - HEAD
+ - OPTIONS
+ - TRACE
+ - PUT
+ - DELETE
+
+
+
