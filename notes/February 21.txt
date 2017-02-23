@@ -1,8 +1,8 @@
 Response Header Field
 -Accept
--Age
--E-tag
--Location Header
+-Age --Age of Resource
+-E-tag --Entity Tag
+-Location Header --used for redirection
 -Proxy-Authenticate
 -Retry-After
 -Server
@@ -11,15 +11,15 @@ Response Header Field
 
 Entity Header Fields
 -Allow
--Content-Encoding
--Content-Language
--Content-Length
--Content-Location
+-Content-Encoding 
+-Content-Language --languaged used by the resource
+-Content-Length --length of the content
+-Content-Location --Where request coming from
 -Content-MD5
 -Content-Range
--Content-Type
+-Content-Type --type of data(ex: txt/html)
 -Expire
--Last-Modified
+-Last-Modified --latest date it was modified(resource)
 
 HTTP Status Code
    Informational(1xx)
@@ -46,19 +46,19 @@ HTTP Status Code
 	- 400 Bad Request
 	- 401 Unauthorized
 	- 402 Payment Required
-	- 403 Forbidden
+	- 403 Forbidden --Not Allowed to Access
 	- 404 Not Found
 	- 405 Method Not Allowed
-	- 406 Not Acceptable
+	- 406 Not Acceptab
 	- 407 Proxy Authentication Required
 	- 408 Request Time-Out
 	- 409 Conflict
-	- 410 Gone
+	- 410 Gone --Resource is already Gone
 	- 411 Length Required
 	- 412 Pre-Condition Failed
 	- 413 Request Entity too large
 	- 414 Request URI too large
-	- 415 Unsupported Media Type
+	- 415 Unsupported Media Type (ex: images, videos, etc.)
 	- 416 Request Range Not Satisfiable
 	- 417 Expectation Failed
 	- 418 Upgrade Required
