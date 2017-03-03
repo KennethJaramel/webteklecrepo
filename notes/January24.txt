@@ -28,6 +28,7 @@ HTML(HyperText Markup Language)
 >structure of webpage
 
 WAIS(Wide Area Information Server)
+>internet system in which specialized subject databases are created at multiple server
 
 usenet
 >worldwide distributed discussion system available
