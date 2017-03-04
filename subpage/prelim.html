@@ -49,7 +49,7 @@
 				on the World Wide Web</li>
 			<li>invented by Tim Berners-Lee</li>
 			<li>jointly developed by the W3C and IETF(Internet Engineering Task Force)</li>
-			<li>version history:</li>
+			<p>version history:</p>
 			<li>HTTP 0.9 (1991)</li>
 			<li>HTTP 1.0 (RFC 1945, May 1996)</li>
 			<li>HTTP 1.1 (RFC 2068 Jan 1997, RFC 2616 Jun 1999),</li>
@@ -82,10 +82,10 @@
 			<li>proxy servers, gateways, tunnels</li>
 		
 		<h1>Eight Methods</h1>
-             	<h2>GET-retrieved</h2>
-			<li>transfer a current selected presentation of the resource identified bynthe Request</li>
-			<li>the retrieved resource returned in the message body of the response as an entity</li>
-			<li>most commonly used in HTTP method</li>
+             <h2>GET-retrieved</h2>
+				<li>transfer a current selected presentation of the resource identified bynthe Request</li>
+				<li>the retrieved resource returned in the message body of the response as an entity</li>
+				<li>most commonly used in HTTP method</li>
 		<h2>HEAD</h2>
 			<li>same as Get,except that the entity is not included in the response</li>
 			<li>used to retrieve metadata about the entity implied by the request without transferring the entity itself</li>
@@ -93,7 +93,7 @@
 			<li>submit data to server</li>
 			<li>perform resource- specific processing of the entities enclosed</li>
 		<h2>PUT</h2>
-			<li>Store the enclosed entity in the messagebody under the specified request.</li>
+			<li>Store the enclosed entity in the message body under the specified request.</li>
 			<li>Allows to upload some to to the web.</li>
 		<h2>OPTIONS</h2>
 			<li>Querying the server on what you can do to the resource.</li>
@@ -104,11 +104,9 @@
 		<h2>CONNECT</h2>
 			<li>Used for HTTPS.</li>
 			<li>Also used for establishing a tunnel.</li>
-
-		<h2>SAFE METHOD<h2>
-			<li>>Doesn't make any changes on the resources.</li>
+		<h2>SAFE METHOD</h1>
+			<li>Doesn't make any changes on the resources.</li>
 			<li>i.e(get,head,options,trace)</li>
-
 		<h2>IDEMPOTENT METHOD</h2>
 			<li>The result/response will not change even if we call it several times.</li>
 			<li>i.e(put,delete,options,trace,get,head)</li>
