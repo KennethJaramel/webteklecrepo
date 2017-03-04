@@ -1,6 +1,6 @@
 HTTP - HyperText Transfer Protocol
 - invented by Tim berners-Lee
--jointly developed by w3c(World Wide Web) & IETF(Internet Eng. Task Force)
+-jointly developed by w3c(World Wide Web Consortium) & IETF(Internet Eng. Task Force)
 -application layer communications protocol used to access resources
 
 HTTP 0.9(1991)
