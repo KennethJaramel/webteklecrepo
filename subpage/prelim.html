@@ -80,5 +80,102 @@
 		<h1>Servers:</h1>
 			<li>origin servers</li>
 			<li>proxy servers, gateways, tunnels</li>
+		
+		<h1>Eight Methods</h1>
+             	<h2>GET-retrieved</h2>
+			<li>transfer a current selected presentation of the resource identified bynthe Request</li>
+			<li>the retrieved resource returned in the message body of the response as an entity</li>
+			<li>most commonly used in HTTP method</li>
+		<h2>HEAD</h2>
+			<li>same as Get,except that the entity is not included in the response</li>
+			<li>used to retrieve metadata about the entity implied by the request without transferring the entity itself</li>
+		<h2>POST</h2>
+			<li>submit data to server</li>
+			<li>perform resource- specific processing of the entities enclosed</li>
+		<h2>PUT</h2>
+			<li>Store the enclosed entity in the messagebody under the specified request.</li>
+			<li>Allows to upload some to to the web.</li>
+		<h2>OPTIONS</h2>
+			<li>Querying the server on what you can do to the resource.</li>
+
+		<h2>TRACE</h2>
+			<li>Used to request a loopback of the request message.</li>
+			<li>Typically used for testing/diagnostics of the request response chain.</li>
+		<h2>CONNECT</h2>
+			<li>Used for HTTPS.</li>
+			<li>Also used for establishing a tunnel.</li>
+
+		<h2>SAFE METHOD<h2>
+			<li>>Doesn't make any changes on the resources.</li>
+			<li>i.e(get,head,options,trace)</li>
+
+		<h2>IDEMPOTENT METHOD</h2>
+			<li>The result/response will not change even if we call it several times.</li>
+			<li>i.e(put,delete,options,trace,get,head)</li>
+			<li>Post is not an idempotent method because you can only use it once.</li>
+
+		<h2>CACHEABLE METHOD</h2>
+			<li>local storage</li>
+			<li>response if its cacheable or not</li>
+
+		<h1>4 CATEGORIES OF HEADERS</h1>
+		<h2>General Header Field</h2>
+		<h2>Request Header Field</h2>
+		<h2>Response Header Field</h2>
+		<h2>Entity Header Field</h2>
+
+		<h1>GENERAL HEADER FIELD:<h1>
+			<li>Cache</li>
+			<li>Connection</li>
+			<li>Date</li>
+			<li>Pragma</li>
+			<li>Trailer</li>
+			<li>Transfer</li>
+			<li>Upgrade</li>
+			<li>Via</li>
+			<li>Warning</li>
+		<h1>REQUEST HEADER FIELD</h1>
+			<li>Accept</li>
+			<li>Accept-charset</li>
+			<li>Accept Encoding</li>
+			<li>Accept Language</li>
+			<li>Authorization</li>
+			<li>Expect</li>
+			<li>From</li>
+			<li>Host</li>
+			<li>If-Match</li>
+			<li>If-Modified-Since</li>
+			<li>If-Modified-Match</li>
+			<li>Max</li>
+			<li>Forward</li>
+			<li>Range</li>
+			<li>Referrer</li>
+		<h1>RESPONSE HEADER FIELD</h1>
+			<li>Accept-ranges</li>
+			<li>Age</li>
+			<li>ETag</li>
+			<li>Location</li>
+			<li>Proxy-authenticate</li>
+			<li>WWW-authenticate</li>
+			<li>Retry-After</li>
+			<li>Server</li>
+			<li>Vary</li>
+		<h1>ENTITY HEADER FIELD</h1>
+			<li>Allow</li>
+			<li>Content-Encoding</li>
+			<li>Content-Language</li>
+			<li>Content-Length</li>
+			<li>Content-Location</li>
+			<li>Content-MD5</li>
+			<li>Content-Range</li>
+			<li>Content-Type</li>
+			<li>Expires</li>
+			<li>Last Modified</li>
+			
+
+		<h1>DAV(Distributed Authoring and Versioning )</h1>
+			<li>Popular extension for HTTP.</li>
+			<li>e.g.WebDAV(RFC 4918):</li>
+			<li>(PROPFIND,PROPPATCH,MKCOL,COPY,MOVE,LOCK,UNLOCK)</li>
 	</body>
 </html>
