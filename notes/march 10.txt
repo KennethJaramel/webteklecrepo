@@ -1,0 +1,30 @@
+css
+- hakon wium lie (chss)
+- bent Bos (ssp)
+Css versions
+css 1
+css 2.1 - june 7,2011
+css 3
+
+css preprocessors, css frameworks
+ - sass,less,960 grid system. bootstrap,foundation,
+materialize etc.
+
+html/xhtml stylesheets
+- author styles
+      - external stylesheets (recommended)
+      - embedded styles
+      - inline styles
+
+css statements
+- at rules
+   - @charset
+   - @import
+   - @name space
+   - @document
+   - @font-face
+   - @keyframes
+   - @media
+   - @page
+   - @support
+  
