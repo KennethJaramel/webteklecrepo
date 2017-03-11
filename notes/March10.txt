@@ -1,0 +1,31 @@
+CSS (Cascading Stylesheets)
+	language used to specify the presentation aspects
+	(e.g layout and formatting) of structurally marked
+	up documents
+	
+	developed by Hakon Wium Lie (CHSS)
+	and Bert Bos (SSP)
+	
+	Versions:
+	 CSS 1
+	 CSS 2.1
+	 CSS 3
+	 
+CSS Preprocessors, CSS Framework
+	Sass (Syntactically Awesome Stylesheets)
+	Less, 960 Grid System,Bootstrap, Foundation,
+	Materialize, etc.
+	
+HTML/XHTML
+	author styles
+	  what the author created
+	  external stylesheets(recommended)
+	  embedded styles
+	  inline styles
+	  
+	user style
+	  allow a user to override the author's
+	  
+	user agent
+	  (example default CSS 2.1 stylesheet for HTML 4)
+	
