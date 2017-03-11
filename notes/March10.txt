@@ -8,7 +8,7 @@ CSS (Cascading Stylesheets)
 	
 	Versions:
 	 CSS 1
-	 CSS 2.1
+	 CSS 2.1 -  June 7, 2011
 	 CSS 3
 	 
 CSS Preprocessors, CSS Framework
