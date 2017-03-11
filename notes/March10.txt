@@ -28,4 +28,15 @@ HTML/XHTML
 	  
 	user agent
 	  (example default CSS 2.1 stylesheet for HTML 4)
+	  
+CSS Statements
+	* @charset
+	* @import
+	* @namespace
+	* @documents
+	* @font-face
+	* @keyframes
+	* @media
+	* @page
+	* @support
 	
