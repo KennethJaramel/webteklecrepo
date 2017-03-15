@@ -41,4 +41,4 @@ CSS Statements
 	* @support
 
 CSS Rule Sets (a.k.a CSS Rules, Style Rules)
-	
+	- consist of selectors
