@@ -1,0 +1,31 @@
+CSS Selectors
+  * Selector
+    - structure used as a conditon in CSS
+    
+  * Selector Syntax
+    - contains of one or more sequence
+   
+  * Group of Selectors
+  
+ Simple Selectors
+  * Universal Selector
+  * Type Selector
+  * Atribute Selector
+    - [attr=value]
+    - [attr~=value]
+    - [attr|=value]
+    - [attr^=value]
+    - [attr$=value]
+    - [attr*=value]
+    
+   * Class Selector
+   * ID Selector
+   * Pseudo Selector
+    Dynamic pseudo-class
+      * link pseudo-classes
+        :link, :visited
+      * User action pseudo-classes
+        :hover, :active, :focus
+    Target pseudo-class
+      :target
+  
