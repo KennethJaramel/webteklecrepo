@@ -1,0 +1,16 @@
+CSS Rule Precedence
+  *by Origin and Importance
+    -user agent important declaration
+    -user important declaration
+    -author important declaration
+    -author important declaration
+    -user normal declaration
+    -user agent normal declaration
+  
+  *by Specificity
+    -inline style
+    -number of ID Selectors
+    -number of class Selectors, attribute selectors, and pseudo-classes
+    -number of type selectors and pseudo-elements
+    
+  *by order
