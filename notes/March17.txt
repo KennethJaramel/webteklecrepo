@@ -14,3 +14,33 @@ CSS Rule Precedence
     -number of type selectors and pseudo-elements
     
   *by order
+  
+CSS Declarators
+   *properties
+     -shorthand properties
+     -vendor specific extensions (a.k.a vendor prefixes)
+  
+  Value
+   *keywords
+   *number (integer and deals in decimal notation)
+   *dimension
+     -length, angle, duration, frequency, resolution
+   
+  Length Units
+    *font-relative: em, ch, rem
+    *viewport-percentage: vw, vh, vmax
+    *absolute lengths: cm, mm, q, in, pt, pc, px
+    
+  Angle Units: deg, grad, rad, turn
+  
+  Duration Units: s, ms
+  
+  Frequency Units: hz, khz
+  
+  Resolution Units: dp, dpcm, dppx
+  
+  Percentages
+    URL's and URI's
+    Colors
+    String
+    Function: calc(), attr(), counter(), counters(), linear-gradient(), radial-gradient(), translate(), scale(), rotate(), etc.
