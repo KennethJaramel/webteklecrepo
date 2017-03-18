@@ -41,13 +41,30 @@ div.holder {
 }
 
 ul#navigator {
-	text-align: center;
-	overflow: hidden;
-	width: 670px;
-	margin: 0 auto;
+	margin: 10%;
+	list-style:none;
+	float:none;
+	position:fixed;
+	width:100%;
 }
 
 ul#navigator li {
-	float: left;
+	float:left;
 	list-style: none;
+}
+
+ul#navigator li a {
+        display:block;
+	text-align:center;
+	padding:40px;
+	text-decoration:none;
+	color:white;
+	font-size: 25px;
+	font-family:raven1_serif;
+}
+
+ul#navigator li:hover{
+    	border-color: #66afe9;
+    	box-shadow: 0 0 150px rgba(255,255,102, 0.6);
+	border-radius: 100px;
 }
