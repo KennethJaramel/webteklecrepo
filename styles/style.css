@@ -20,10 +20,9 @@ body {
 div.holder {
 	margin: auto;
 	padding-bottom: 20px;
-	padding-top: 20px;
-	padding-left: 140px;
-	padding-right: 140px;
-	margin-bottom: 20px;
+	padding-top: 300px;
+	padding-left: 100px;
+	padding-right: 100px;
 }
 
 #container {
