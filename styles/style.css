@@ -10,7 +10,12 @@ body {
     	background-attachment: fixed;
 	background-size: 70% 100%;
 	background-size: 70% 100%;
-}	
+}
+
+@font-face{
+	 font-family: raven1_serif;
+	 src: url(raven1_serif.ttf);
+ }
 
 div.holder {
 	margin: auto;
