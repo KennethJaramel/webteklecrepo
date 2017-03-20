@@ -7,22 +7,20 @@ body{
     background-color: #f4f4f4;
 }
 .container{
-    width: 100%;
-    margin:auto;
-	overflow: hidden;
-	z-index:1;
-	position:fixed;
-	background: #35424a;
-	border-bottom: #e8491d 3px solid;
-	padding-top: 30px;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
 }
 ul{
     margin: 0;
     padding: 0;
 }
 header{
+    background: #35424a;
     color: #ffffff;
+    padding-top: 30px;
     min-height: 70px;
+    border-bottom: #e8491d 3px solid;
 }
 header a{
     color: #ffffff;
