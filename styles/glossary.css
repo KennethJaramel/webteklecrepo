@@ -128,3 +128,11 @@ header a:hover{
 .menu li:hover {
     background-color: #f99e5b;
 }
+
+.col-3 menu  div{
+	display: none;
+}
+
+.col-3 menu  div:target{
+	display: block;
+}
