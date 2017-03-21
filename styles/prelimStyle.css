@@ -60,29 +60,26 @@ div#content h1{
 	display:block;
 	letter-spacing:10px;
 	padding-top:8%;
-	text-align:center;
+	text-align:justify;
 	text-decoration:none;
 	font-size: 30px;
 	
 }
 div#content  h2,h3, h4, p{
 	display:block;
-	text-align:center;
+	text-align:justify;
 	text-decoration:none;
 	font-size: 25px;
 }
 div#content li{
 	display:block;
-	text-align:center;
+	text-align:justify;
 	text-decoration:none;
 	font-size: 15px;
 }
 div#content img{
 	height:300px;
 	width:250px;
-	padding-left:400px;
-	margin-left: auto;
-	margin-right: auto;
 }
 div#terms ul{
 	margin-left:15px;
