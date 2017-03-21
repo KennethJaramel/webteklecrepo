@@ -63,3 +63,26 @@ min-height: 595px;
     font-size: 55px;
     margin-bottom: 10px;
 }
+.aboutteam{
+  float: left;
+  margin: 33%;
+}
+body {
+  margin:40px; 
+}
+.about{
+  width: 30%;
+  background-color: #CD5C5C;
+  box-shadow: 10px 10px 5px #888888;
+  margin-right: auto;
+
+}
+
+h3{
+  text-align: center;
+  padding: 10px 20px;
+}
+
+
+
+
