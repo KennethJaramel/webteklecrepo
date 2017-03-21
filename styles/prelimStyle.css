@@ -85,7 +85,7 @@ div#terms ul{
 	margin-left:15px;
 	float:left;
 	position:fixed;
-	list-style-type: circle;
+	list-style-type: none;
 	font-size: 18px;
 	list-style-type: none;
     padding: 0;
