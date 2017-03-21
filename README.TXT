@@ -1,7 +1,7 @@
 Step by step on how to set up the site
 
 *Open an text editor (Brackets)
-*Put <!DOCTYPE> in first line, then add <html> in the second line and and </html> tag
+*Put <!DOCTYPE> in first line, then add <html> in the second line and </html> tag
 *Put <head> and </head> between the html tags
 *Add title tag between the head tag
 *Add <body> tag and the </body> tag
