@@ -68,24 +68,50 @@ header a:hover{
     margin-bottom: 10px;
 }
 
-#wrapper #gallery {
-	width:1350px;
-	height:1000px;
-	margin-left:auto;
-	margin-right:auto;
+/*our team*/
+main{
+    width: 80%;
+    margin: 2rem auto;
 }
-
-#gallery .holder {
-	width:225px;
-	height:250px;
-	float:left;
+section{
+    width: 100%;
+    box-shadow: 0 0 10px 2px #ccc;
+    padding: 1rem 0;
+    background: #35424a;
 }
-
-.holder .position {
-	width:140px;
-	height:120px;
-	margin-top:30px;
-	margin-left:43px;
-	margin-right:42px;
-	padding: 0px 100px 0px 100px;	
+figure{
+    width: calc(100% / 4);
+    float: left;
+    margin-bottom: 1rem;
+    position: relative;
+}
+figure img{
+    width: 100%;
+    vertical-align: middle;
+    margin-bottom: 0;
+    border-radius: 50%;
+    
+}
+figure figcaption{
+    background: #35424a ;
+    color: #cccccc;
+    text-align: center;
+    padding: .7rem;
+    margin: 0 1rem;
+}
+section::after, section::before{
+    content: "";
+    display:block;
+   
+}
+section::after{
+    clear: both;
+}
+@media only screen and (max-width:1024px){
+    html{
+        font-size: 14px;
+    }
+    figure{
+        width: calc(100% / 2);
+    }
 }
