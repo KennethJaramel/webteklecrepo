@@ -57,14 +57,6 @@ header a:hover{
     color: #cccccc;
     font-weight: bold;
 }
-
-#showcase h1{
-	color: #fb742a;
-    margin-top: 100px;
-    font-size: 100px;
-    margin-bottom: 10px;
-}
-
 main{
     width: 80%;
     margin: 2rem auto;
