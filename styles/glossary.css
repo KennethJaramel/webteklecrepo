@@ -54,6 +54,7 @@ header a:hover{
 
 * {
     box-sizing: border-box;
+	text-decoration: none;
 }
 .row::after {
     content: "";
@@ -65,49 +66,8 @@ header a:hover{
     padding: 15px;
 }
 
-.col-1 {
-	width: 8.33%;
-}
-
-.col-2 {
-	width: 16.66%;
-}
-
 .col-3 {
 	width: 20%;
-}
-
-.col-4 {
-	width: 33.33%;
-}
-.col-5 {
-	width: 41.66%;
-}
-
-.col-6 {
-	width: 50%;
-	}
-.col-7 {
-	width: 58.33%;
-}
-.col-8 {
-	width: 66.66%;
-}
-
-.col-9 {
-	width: 75%;
-}
-
-.col-10 {
-	width: 83.33%;
-}
-
-.col-11 {
-	width: 91.66%;
-}
-
-.col-12 {
-	width: 100%;
 }
 
 .menu ul {
@@ -129,10 +89,10 @@ header a:hover{
     background-color: #f99e5b;
 }
 
-.col-3 menu  div{
+.list  div{
 	display: none;
 }
 
-.col-3 menu  div:target{
+.list  div:target{
 	display: block;
 }

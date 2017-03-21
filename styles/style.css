@@ -5,6 +5,12 @@ body{
     padding: 0;
     margin: 0;
     background-color: #f4f4f4;
+    background: url("../images/showcase.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
 }
 .container{
     width: 80%;
@@ -53,14 +59,7 @@ header a:hover{
 }
 /*showcase*/
 #showcase{
-	min-height: 3500px;
-    min-width: 100%;
-    background: url("../images/showcase.jpg");
-	background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    text-align: center;
-    color: #ffffff;
+
 }
 #showcase h1{
 	color: #fb742a;
