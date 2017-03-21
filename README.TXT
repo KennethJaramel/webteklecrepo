@@ -6,7 +6,7 @@ Step by step on how to set up the site
 *Add title tag between the head tag
 *Add <body> tag and the </body> tag
 *Write some text between the body tags
-*Save your to in .html file extension
+*Save your work to .html file extension
 -------------------------------------
 *Make an external CSS for the html, here you can put some designs and layout to your html
 *Save your work to .css file extension 
