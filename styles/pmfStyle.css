@@ -56,25 +56,24 @@ header a:hover{
     box-sizing: border-box;
 	text-decoration: none;
 }
-.contents::right {
-    clear: both;
-    display: table;
-}
+
 [class*="col-"] {
     float: left;
     padding: 15px;
 }
-
-.col-3 {
+.contents::before{
+	content: "";
+}
+.contents {
 	width: 20%;
 }
 
-.menu ul {
+.contents ul {
     list-style-type: none;
-    margin: 0;
+    margin: 10px;
     padding: 0;
 }
-.menu li {
+.contents li {
 	text-align: center;
 	font-size: 20px;
     padding: 8px;
@@ -84,9 +83,17 @@ header a:hover{
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
-.menu a{
+.contents a{
 	color: #e8491d;
 }
-.menu li:hover {
+.contents li:hover {
     background-color: #f99e5b;
+}
+
+.contents div {
+    display: none;
+}
+
+.contents div:target {
+    display: block;
 }
