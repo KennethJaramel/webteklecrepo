@@ -52,56 +52,41 @@ header a:hover{
     font-weight: bold;
 }
 
-div#content{
-	float:right;
+* {
+    box-sizing: border-box;
+	text-decoration: none;
+}
+.contents::right {
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
 }
 
-div#content h1{
-	display:block;
-	letter-spacing:10px;
-	padding-top:8%;
-	text-align:justify;
-	text-decoration:none;
-	font-size: 30px;
-	
+.col-3 {
+	width: 20%;
 }
-div#content  h2,h3, h4, p{
-	display:block;
-	text-align:justify;
-	text-decoration:none;
-	font-size: 25px;
-}
-div#content li{
-	display:block;
-	text-align:justify;
-	text-decoration:none;
-	font-size: 15px;
-}
-div#content img{
-	height:300px;
-	width:250px;
-}
-div#terms ul{
-	margin-left:15px;
-	float:left;
-	position:fixed;
-	list-style-type: none;
-	font-size: 18px;
-	list-style-type: none;
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
     padding: 0;
-    width: 250px;
-    background-color: #f1f1f1;
 }
-div#terms li a{
-	display: block;
-    color: #000;
-    padding: 0px 4px;
-    text-decoration: none;
+.menu li {
+	text-align: center;
+	font-size: 20px;
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #35424a;
+	font-weight: bold; 
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
-div#terms a:hover{
-	background-color: #555;
-    color: white;
+
+.menu a{
+	color: #e8491d;
 }
-div#terms h4{
-	margin-bottom:0px;
+.menu li:hover {
+    background-color: #f99e5b;
 }
