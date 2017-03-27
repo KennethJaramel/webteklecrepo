@@ -1,0 +1,44 @@
+css rule precedence
+- by origin and importance
+	- user agent important declarations
+	- user important declarations
+	- author important declarations
+	- author normal declarations
+	- user normal declarations
+	- user agent declarations
+- by specificity
+	- inline style
+	- member of id selectors
+	- number of class selectors, attribute selectors and pseudo-classes
+	- number of type selectors and pseudo-elements
+
+css declarations
+- properties
+	- shorthand properties
+	- vender-specific extensions(a.k.a vender prefix)
+- values
+	- keywords
+	- numbers(integers and real in decimal notation)
+	- dimenisions
+		- length, angle, duration,frequency, solution
+		- length units
+			- font relative: em,ex,ch, rem
+			- view-post-percentage: vm,vh,vmin,vmax
+			- absolute lengths: cm, mm, q, in, pt, pc,px
+		- angle units
+			- deg,grad,rad,turn
+		- duration units
+			- s, ms
+		- frequncy units
+			- hz,khz
+		resolution units 
+			- dpi, dpcm,dppx
+- percentage
+	- url's and url's
+	- colors
+	- strings
+	- functions: calc(), attr(),counter(),counters(),
+		lineargradient(),radial-gradient(), tarnslate()
+		scale(),rotate() etc.
+
+			
