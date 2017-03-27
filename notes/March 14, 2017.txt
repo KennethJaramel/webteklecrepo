@@ -1,0 +1,62 @@
+CSS Selectors
+- selectors
+- selector syntax
+	- sequences of simple selectors
+		- always starts with a type selectors
+	- end of sequence:pseudo
+- group of simple selectors
+ 	- comma sepeparated list of selectors
+
+simple selectors
+- type selectors
+- universal selectors
+- attribute selectors
+- class selectors
+- id selectors
+- psuedo selectors
+
+*attribute
+- =value
+- ~= value (space separated)
+- |= value 
+- ~= value (css3, beginning)
+- $= value (css3, end)
+- *= value (css3, contain)
+
+*pseudo
+- dynamic
+	- link
+		- :link
+		- : visited
+- user actor
+	- : hover
+	- : active
+	- :focus
+- target
+	- :target(css3)
+- language
+	- : lang()
+-UI element states(css3)
+	- :enabled
+	- :disabled
+	- :checked
+	- :indeterminate
+-structural
+	- :root (css3)
+	- :first-child
+	- :last-child (css3)
+	- :only-child(css3)
+	- :nth-child()(css3)
+	- :nth-last-child()(css3)
+	- :first-of-type(css3)
+	- :last-of-type(css3)
+	- :only-of-type(css3)
+	- :nth-of-type(css3)
+	- :empty(css3)
+-negative pseudo
+	- :not()(css3)
+-combinators
+	- descendant(whitespace)
+	- sibling
+		- general
+		- adjacent
