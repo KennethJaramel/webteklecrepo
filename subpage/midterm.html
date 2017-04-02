@@ -18,7 +18,7 @@
                     <li><a href="Prelim.html">Prelim</a></li>
                     <li class="active"><a href="midterm.html">Midterm</a></li>
                     <li><a href="#">Finals</a></li>
-					<li><a href= "glossary.html">Glossary</a></li>
+			<li><a href= "glossary.html">Glossary</a></li>
                     <li><a href="Team.html">Our Team</a></li>
                 </ul>
             </nav>
@@ -27,12 +27,7 @@
 	<div class= "contents">
 			<ul>
 				<li><a href="#html">HyperText Mark-up Language</a></li>   
-				<li><a href="#web">Webpage</a></li>
-				<li><a href="#versions">HTML Versions:</a></li>
 				<li><a href="#css">CSS</a></li>
-				<li><a href="#accs">CSS Preprocessors, CSS Framework</a></li>
-				<li><a href="#statements">CSS Statements</a></li>
-				<li><a href="#rule">CSS RuleSets</a></li>
 				<li><a href="#htmlandxhtml">HTML/XHTML</a></li>
 				<li><a href="#xhtml">Extensible HyperText Mark-up Language</a></li>
 			</ul>
@@ -41,15 +36,8 @@
 			<h1>HTML(HyperText Mark-up Language)</h1>
 			<p>created by Tim Berners Lee in the year 1989</p>
 			<p>it is a language use to create a web page</p>
-		</div>
-		
-		<div id="web">
-		<h1>Webpage</h1>
-			<p>it is an electronic document</p>
-		</div>
-		
-		<div id="versions">
-		<h1>HTML Versions:</h1>
+			<p>Web page - it is an electronic document</p>
+			<p>HTML Versions:</p>
 			<p>HTML 1.0</p>
 			<p>HTML 2.0 (Nov. 1995) (RFC 1866)</p>
 			<p>HTML 3.0 (w3c recommendation)</p>
@@ -62,24 +50,119 @@
 			<p>HTML 4.01 (Dec. 24, 1999) (w3c recommendation)</p>
 			<p>HTML 5.0 (2014)</p>
 			<p>HTML 5.1 (2016)</p>
-			
+			<p>HTML Elements</p>
+				<p>parent - html</p>
+				<p>1st child -head (metadata)</p>
+					<p>title, base, link, meta, style</p>
+				<p>2nd child - body</p>
+					<p>article, aside, nav, section, header, footer</p>
+					<p>main</p>
+					<p>contact information - address</p>
+					<p>general purpose - div</p>
+					<p>h1, h2, h3, h4, h5, h6 - should be use sequentially</p>
+					<p>
+				<p>thematic break - hr (horizontal line)</p>
+				<p>preformatted text - pre-indentation, whitespace</p>
+				<p>coltation - blockquote</p>
+				<p>ol (ordered list), ul (unordered list)</p>
+				<p>li</p>
+				<p>dl (description list)</p>
+				<p>figure</p>
+					<p>figcaption</p>
+				<p>text level elements</p>
+					<p>a</p>
+					<p>em, strong, small, s</p>
+					<p>cite, q</p>
+					<p>afn, abbr</p>
+					<p>ruby, rb, rt, rtc, rp</p>
+					<p>data, time - embedded data</p>
+					<p> code, var, scamp, kbd - embedding computer code</p>
+					<p>sup, sub</p>
 		</div>
 		
 		<div id="css">
 		<h1>CSS(Cascading StyleSheet)</h1>
-		<p> - language used to specify the presentation aspects(e.g layout and formatting) of structurally markedup documents</p>
+		<p> - language used to specify the presentation aspects(e.g layout and formatting) of structurally marked up documents</p>
 		<p> - developed by Hakon Wium Lie (CHSS)and Bert Bos (SSP)</p>
-		<p> - Versions:</p>
+		<p>Versions:</p>
 				<p> - CSS 1</p>
 				<p> - CSS 2.1 -  June 7, 2011</p>
 				<p> - CSS 3 </p>
-				
-		</div>
-		
-		<div id="acss">
-		<h1>CSS Preprocessors, CSS Framework</h1>
-		<p>Sass (Syntactically Awesome Stylesheets)Less, 960 Grid System,Bootstrap, Foundation,Materialize, etc.</p>
-		
+		<p>CSS Statements</p>
+			<p> * @charset</p>
+			<p> * @import</p>
+			<p> * @namespace</p>
+			<p> * @documents</p>
+			<p> * @font-face</p>
+			<p> * @keyframes</p>
+			<p> * @media</p>
+			<p> * @page</p>
+			<p> * @support</p>
+		<p>CSS Rule Sets (a.k.a CSS Rules, Style Rules)</p>
+			<p> - consist of selectors</p>
+			<p>Selector - structure used as a condition</p>
+				<p>Simple Selectors</p>
+					<p>type selectors</p>
+						<p>ex. p</p>
+					<p>universal selector - *</p>
+					<p>attribute selector</p>
+						<p>attribute selector</p>
+							<p>[attr] [attr = value] [attr ~= value] [attr != value] [attr ^= value]
+								[attr $= value] [attr *= value]</p>
+					<p>class selector</p>
+						<p>-targets class attribute</p>
+					<p>ID selector - attribute</p>
+					<p>pseudo classes</p>
+						<p>-dynamic - link pseudo-classes</p>
+						<p>link - hyperlinks</p>
+						<p>-visited</p>
+						<p>User Action Pseudo - Classes</p>
+							<p>hover
+							<p>active - activate (click)
+							<p>focus - element has the focus</p>
+						<p>Target Pseudo - class #x (fragment identifier or bookmark)
+							<p>:target</p>
+						<p>Language</p>
+							<p>:lang()</p>
+					<p>UI element states pseudo - classes</p>
+						<p>:enabled</p>
+						<p>:disabled</p>
+						<p>:checked</p>
+						<p>:intermediate</p>
+					<p>negation pseudo - class</p>
+						<p>:not()</p>
+					<p>combinations</p>
+						<p>decendant combinator</p>
+						<p>whitespace</p>
+					<p>structural pseudo classes</p>
+						<p>:root</p>
+						<p>:first child</p>
+						<p>:last child</p>
+						<p>:only child</p>
+						<p>:nth - child() 2n+1 for odd number, 2n- for even number</p>
+						<p>:nth - last-child() - counting start at the bottom</p>
+						<p>:first-of-type</p>
+						<p>:last-of-type</p>
+						<p>:only-of-type</p>
+						<p>:nth-of-type</p>
+						<p>:nth-last-of-type</p>
+						<p>:empty - target an element w/o content</p>
+					<p>pseudo elements</p>
+						<p>::first-letter</p>
+						<p>::fisrt-line</p>
+						<p>::before-insert content using css</p>
+						<p>::after</p>
+		<p>CSS Preprocessors, CSS Framework</p>
+			<p>Preprocessors - it is a program that converts data to another type of data</p>
+			<p>Framework - </p>
+			<p>Sass (Syntactically Awesome Stylesheets), Less - implemented in JavaScript, 960 Grid System,Bootstrap, Foundation,Materialize - implemented in Ruby, etc.</p>
+			<p>HTML Preprocessors</p>
+				<p>Haml - ruby</p>
+				<p>Markdown</p>
+				<p>Slim</p>
+				<p>Plug</p>
+			<p>CSS Frameworks</p>
+				<p>-Bootstrap</p>
 		</div>
 		
 		<div id="htmlandxhtml">
@@ -91,28 +174,9 @@
 			<p> - inline styles</p>
 		<p> - User Style
 			<p> - allow a user to override the author's</p>
-		<p> - User Agent</p>
+		<p> - User Agent Style</p>
 			<p> - (example default CSS 2.1 stylesheet for HTML 4)</p>
 		</div>
-		
-		<div id="statements">
-		<h1>CSS Statements</h1>
-		<p> * @charset</p>
-		<p> * @import</p>
-		<p> * @namespace</p>
-		<p> * @documents</p>
-		<p> * @font-face</p>
-		<p> * @keyframes</p>
-		<p> * @media</p>
-		<p> * @page</p>
-		<p> * @support</p>
-		</div>
-		
-		<div id="rule">
-		<h1>CSS Rule Sets (a.k.a CSS Rules, Style Rules)</h1>
-		<p> - consist of selectors</p>
-		
-	
 		
 		<div id="xhtml">	
 		<h1>XHTML (Extensible HyperText Mark-up Language)</h1>
