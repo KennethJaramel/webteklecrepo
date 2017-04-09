@@ -61,7 +61,7 @@ header a:hover{
     padding: 15px;
 }
 .menu {
-	width: 20%;
+	max-width: 250px;
 }
 
 .menu ul {
