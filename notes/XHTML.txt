@@ -1,0 +1,5 @@
+XHTML
+  - Documents must be well-formed
+  - end task are requires
+  - Attribute values must be qouted
+  - Attribute minimization
