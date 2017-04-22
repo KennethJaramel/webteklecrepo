@@ -65,12 +65,12 @@ html {
 
 .column {
   float: left;
-  width: 30%;
+  width: 40%;
   margin-bottom: 16px;
-  padding: 30px 50px 20px 8px;
+  padding: 0 8px;
 }
 
-img{
+img.id{
     width: 200px;
     height: 200px;
 }
