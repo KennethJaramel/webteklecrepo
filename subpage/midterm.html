@@ -262,8 +262,99 @@
 		</div>
 		<div id="js">	
 		<h1>JavaScript</h1>
-			
-		</div>
-	</div>
-	</body>
+			<p>- imperative programming language </p> 
+  			<p>- sequence of statement </p> 
+  			<p>- sequence of instructions that modify  </p>
+  			<p>- dynamically type language </p>
+   				 <p>- never designate types  </p>
+    			<p>- defacto programming language for the client side  </p>
+    			<p>- eg var x=100;//number   </p>
+    				<p> x = hello; //then become a string  </p> 
+   				 <p>function max (x,y){ //declaring a function to return type  </p> 
+    				<p> valid //max(5,10) || max(‘hi’, ‘hello’) || max (0, true) </p>
+  		 <p>- DOM not part of Javascript  </p>
+  		 <p> - keywords: </p>
+  			<p> - var  </p> 
+     			<p>- let – only available within the block  </p> 
+     			<p>- const – constant declaration; cant re-asign it to other</p>
+  		<p> - eg "script"  </p>
+     			<p> var x=100; </p> 
+     			<p>  * let x = 100; //not get an error, just create it </p>
+       			<p>function f(){ //function level code  </p>  
+      				<p> var x = 200; //local variable; doesn’t exist outside of the function </p>    
+       					<p>- //function scope variable   </p>
+      			<p> } let x = 200; //only available in this part only; in this block only </p>    
+         			 <p>- block local variables </p>
+		<p>Java</p>
+   			 <p>- safe, very rigid </p>
+ 		<p>- JavaScript </p>
+    			<p>- flexible, know what you are doing </p>
+ 		<p>- Client-side Java Script </p>
+   			 <p> - MDN – Mozilla Developer Network </p>  
+    			 <p>- ECMAScript (Standard)   </p>
+    			<p> - 3 Kinds of putting the JavaScript </p>
+    				 <p>  -  externally link - (there’s an defer attribute)    </p>
+     				 <p> - - embedded script - (execute as it is encountered) </p>   
+     				 <p> - - inline script - </p>
+     			 <p> ~ parse the engine starting from the top and fetch the .js (compile -> execute) </p>  
+     			 <p> ~ put code on the script </p>
+        		<p>  - top – level tool  </p>   
+         			 <p> script      </p>
+             				 <p> console.log (‘embedded script…’); </p>     
+             				<p> function callMe(){       </p>
+              				<p>console.log (‘you called…’); </p>     
+            				 <p> }     </p>
+            			<p> /script </p>
+             			<p> buttononclick  ‘console.log(‘embedded script…’); callMe()’ </p> 
+ 		<p>- defer attribute </p>
+     			<p>- from the top and when it gets through it (|) will compile -> execute </p>
+    			 <p>- start fetching and not wait until execute fully done </p>
+   			 <p> - eg ~~ hello </p>
+    			<p> - script defer type = ‘text/javascript’ src = ‘script.js’> </p>
+ 		<p>- async attribute </p>
+     			<p>- continue rendering the document, but when it is available, it executes and compile it. </p> 
+     			<p>- eg ~~~ hello </p>
+    			<p> - script type = ‘text/javascript’ src = ‘script.js’> //up or down </p>
+   			 <p> - <noscript> no scripting support </noscript> ~no support for  scripting </p>
+  		<p>- pre-defined object </p>
+    			<p> - window (global object)   [window.screen.width] </p>
+     				 <p> - navigator – vendor, appversion </p>
+      				<p> - screen – width, availHeight </p>
+      				 <p>- document – getElementById, childNodes </p>
+       					 <p> Examples </p>
+         				 <p>  - document.getElementById(‘h’) </p>
+         				 <p>  - h.innerText = ‘hi’ </p>
+        				 <p>   - h.innerHTML = ‘hi <em> there </em>’ </p>
+       					 <p>   - h.textContent </p>
+        				 <p>    -h.title </p>
+        				 <p>    -h.lang  </p>      
+         				 <p>   -h[‘lang’] = ‘en.us’ </p>        
+         				 <p>  - h.data-extra </p>
+            				 <p>   - not valid character in name of javascript </p>
+ 		<p>- get/set – on normal attribute </p>
+   			<p>- h.setAttribute (‘data-extra’, ‘value’) </p>
+    			<p> - use if not part of … </p>
+  				<p> - h.get Attribute (‘data-extra’) </p>
+   			<p>- h.style = ‘color: blue’ </p>
+     				 <p>- create an inline style        </p>
+    				 <p>- available (all) on the style attribute </p>
+    				 <p> - all values (if properties) must assign as a string (‘hi’)  </p>      
+  				 <p> - h.style.fontSize = ‘3em’ </p>
+		<p>- attribute name        </p>
+   			<p>- h.className = ‘green-text’ </p>
+   			<p>- document.querySelector(‘p’)       </p> 
+        			<p> - return the first element that matches it </p>
+ 			<p> - document.querySelectorAll(‘p’) /(‘p:first-child’)/ </p>
+      				<p> (‘p:first-of-type’) /    (‘h1+p’) </p>
+             				<p>  - first’s p    - follow h1 </p>
+   			<p>- s.querySelectorAll(‘p’)         </p>
+     			<p> <p>- all with ‘s’ element </p>
+  			<p> - s.matches (‘p’) //=false    </p>    
+    			<p> - elements not paragraph </p>
+  			<p> - doctype: document.childNodes  </p>       
+         		<p>     document.children //=html </p>
+          		<p>    document.head.childNodes            //=title, style, tex </p>
+	    </div>
+	 </div>
+	 </body>
 </html>
