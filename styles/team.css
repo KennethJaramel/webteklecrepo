@@ -5,9 +5,8 @@ body{
     padding: 0;
     margin: 0;
     text-align: center;
-    color: #ffffff;
+    color: black;
 	font-weight: bold;
-	text-shadow: 0.035in 0.06in 0.06944444444444in rgb( 0, 0, 0 );
 }
 .container{
     width: 80%;
@@ -31,6 +30,7 @@ header a{
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
+    text-shadow: 0.035in 0.06in 0.06944444444444in rgb( 0, 0, 0 );
 }
 header li{
     float: left;
@@ -65,9 +65,9 @@ html {
 
 .column {
   float: left;
-  width: 40%;
+  width: 25%;
   margin-bottom: 16px;
-  padding: 0 8px;
+  padding: 8px 50px 50px 8px;
 }
 
 img.id{
@@ -94,24 +94,4 @@ img.id{
   content: "";
   clear: both;
   display: table;
-}
-
-.title {
-  color: grey;
-}
-
-.button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-}
-
-.button:hover {
-  background-color: #555;
 }
