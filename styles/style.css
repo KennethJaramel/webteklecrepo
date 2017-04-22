@@ -60,13 +60,6 @@ header a:hover{
     font-weight: bold;
 }
 
-/* Slideshow container */
-.slideshow-container {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 /* Caption text */
 .text {
 	color: rgb( 232, 73, 29 );
@@ -81,6 +74,9 @@ header a:hover{
 }
 
 /* The dots/bullets/indicators */
+.positionDOt{
+	text-align:center
+}
 .dot {
   height: 13px;
   width: 13px;
