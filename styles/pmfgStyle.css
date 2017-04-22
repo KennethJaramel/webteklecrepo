@@ -1,5 +1,5 @@
 body{
-    font-size: 15px;
+    font-size: 18px;
     line-height: 1.5;
     padding: 0;
     margin: 0;
@@ -21,7 +21,7 @@ header{
     border-bottom: #e8491d 3px solid;
 }
 header a{
-	font-size: 16px;
+	font-size: 18px;
     color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
@@ -127,4 +127,22 @@ h4{
 
 .content div:target {
     display: block;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
 }
