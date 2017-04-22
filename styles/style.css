@@ -60,17 +60,17 @@ header a:hover{
     font-weight: bold;
 }
 
-/* Caption text */
-.text {
-	color: rgb( 232, 73, 29 );
-	font-size: 115px;
-	padding-top: 5px;
-	position: absolute;
-	bottom: 8px;
-	width: 100%;
-	text-align: center;
-	z-index: 1;
+#showcase h2{
+	font-size: 200px;
+	color: #fb742a;
+    margin-top: 100px;
+    font-size: 100px;
+    margin-bottom: 10px;
+	font-weight: bold;
 	-webkit-text-stroke: 3px black;
+	color: rgb( 232, 73, 29 );
+	width: 100%;
+	
 }
 
 /* The dots/bullets/indicators */
