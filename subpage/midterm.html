@@ -35,13 +35,13 @@
 					<li class="subTopic"><a href="#elementStates">UI Element States</a></li>
 					<li class="subTopic"><a href="#negation">Negation Pseudo Class</a></li>
 					<li class="subTopic"><a href="#structuralP">Structural Pseudo Classes</a></li>
-					<li class="subTopic">Pseufo Elements<a href="#pElements"></a></li>
-					<li class="subTopic">CSS Preprocessors<a href="#preprocessors"></a></li>
+					<li class="subTopic"><a href="#pElements">Pseudo Elements</a></li>
+					<li class="subTopic"><a href="#preprocessors">CSS Preprocessors</a></li>
 					<li class="subTopic"><a href="#framework">CSS Framework</a></li>
-					<li class="subTopic">CSS Rule<a href="#rule"></a></li>
-					<li class="subTopic">Precedence<a href="#precedence"></a></li>
-					<li class="subTopic">CSS Declarators<a href="#declarators"></a></li>
-				<li><a href="#htmlandxhtml">HTML/XHTML</a></li>
+					<li class="subTopic"><a href="#rule">CSS Rule</a></li>
+					<li class="subTopic"><a href="#precedence">Precedence</a></li>
+					<li class="subTopic"><a href="#declarators">CSS Declarators</a></li>
+				<li><a href="#htmlandxhtml"></a>HTML/XHTML</li>
 				<li><a href="#xhtml">Extensible HyperText Mark-up Language</a></li>
 				<li><a href="#js">Javascript</a></li>
 			</ul>
@@ -75,7 +75,6 @@
 					<p>contact information - address</p>
 					<p>general purpose - div</p>
 					<p>h1, h2, h3, h4, h5, h6 - should be use sequentially</p>
-					
 				<p>thematic break - hr (horizontal line)</p>
 				<p>preformatted text - pre-indentation, whitespace</p>
 				<p>coltation - blockquote</p>
@@ -97,13 +96,15 @@
 		
 		<div id="css" class= "fade">
 		<h1>CSS(Cascading StyleSheet)</h1>
-		<p> - language used to specify the presentation aspects(e.g layout and formatting) of structurally marked up documents</p>
+		<p> - language used to specify the presentation aspects(e.g layout and formatting)</br> of structurally marked up documents</p>
 		<p> - developed by Hakon Wium Lie (CHSS)and Bert Bos (SSP)</p>
 		<p>Versions:</p>
 				<p> - CSS 1</p>
 				<p> - CSS 2.1 -  June 7, 2011</p>
 				<p> - CSS 3 </p>
-		<p>CSS Statements</p>
+		</div>
+		<div id="statements" class= "fade">
+			<h1>CSS Statements</h1>
 			<p> * @charset</p>
 			<p> * @import</p>
 			<p> * @namespace</p>
@@ -113,7 +114,9 @@
 			<p> * @media</p>
 			<p> * @page</p>
 			<p> * @support</p>
-		<p>CSS Rule Sets (a.k.a CSS Rules, Style Rules)</p>
+		</div>
+		<div id="ruleSets" class= "fade">
+		<h1>CSS Rule Sets (a.k.a CSS Rules, Style Rules)</h1>
 			<p> - consist of selectors</p>
 			<p>Selector - structure used as a condition</p>
 				<p>Simple Selectors</p>
@@ -127,29 +130,37 @@
 					<p>class selector</p>
 						<p>-targets class attribute</p>
 					<p>ID selector - attribute</p>
-					<p>pseudo classes</p>
+		</div>
+		<div id="pclasses" class= "fade">
+					<h1>Pseudo Classes</h1>
 						<p>-dynamic - link pseudo-classes</p>
 						<p>link - hyperlinks</p>
 						<p>-visited</p>
 						<p>User Action Pseudo - Classes</p>
-							<p>hover
-							<p>active - activate (click)
+							<p>hover</p>
+							<p>active - activate (click)</p>
 							<p>focus - element has the focus</p>
-						<p>Target Pseudo - class #x (fragment identifier or bookmark)
+						<p>Target Pseudo - class #x (fragment identifier or bookmark)</p>
 							<p>:target</p>
 						<p>Language</p>
 							<p>:lang()</p>
-					<p>UI element states pseudo - classes</p>
+		</div>
+		<div id="elementStates" class= "fade">
+					<h1>UI element states pseudo - classes</h1>
 						<p>:enabled</p>
 						<p>:disabled</p>
 						<p>:checked</p>
 						<p>:intermediate</p>
-					<p>negation pseudo - class</p>
+		</div>
+		<div id="negation" class= "fade">
+					<h1>Negation Pseudo - Class</h1>
 						<p>:not()</p>
 					<p>combinations</p>
 						<p>decendant combinator</p>
 						<p>whitespace</p>
-					<p>structural pseudo classes</p>
+		</div>
+		<div id="structuralP" class= "fade">
+					<h1>structural pseudo classes</h1>
 						<p>:root</p>
 						<p>:first child</p>
 						<p>:last child</p>
@@ -162,12 +173,16 @@
 						<p>:nth-of-type</p>
 						<p>:nth-last-of-type</p>
 						<p>:empty - target an element w/o content</p>
-					<p>pseudo elements</p>
+		</div>
+		<div id="pElements" class= "fade">
+					<h1>Pseudo Elements</h1>
 						<p>::first-letter</p>
 						<p>::fisrt-line</p>
 						<p>::before-insert content using css</p>
 						<p>::after</p>
-		<p>CSS Preprocessors, CSS Framework</p>
+		</div>
+		<div id="preprocessors" class= "fade">
+		<h1>CSS Preprocessors, CSS Framework</h1>
 			<p>Preprocessors - it is a program that converts data to another type of data</p>
 			<p>Framework - designed to support the development of the web applications, including web services, web resources, and web APIs</p>
 			<p>Sass (Syntactically Awesome Stylesheets), Less - implemented in JavaScript, 960 Grid System,Bootstrap, Foundation,Materialize - implemented in Ruby, etc.</p>
@@ -178,7 +193,8 @@
 				<p>Plug</p>
 				<p>CSS Frameworks</p>
 				<p>-Bootstrap</p>
-			
+		</div>
+		<div id="precedence" class= "fade">
 		<h1>css rule precedence</h1>
 			<p>by Origin and Importance</p>
 			<p> -user agent important declaration</p>
@@ -207,7 +223,10 @@
 			<p> -number of type selectors and pseudo-elements</p>
 			
 			<p>by order</p>
-  
+  		</p>
+  		</p>
+  		</div>
+  		<div id="precedence" class= "fade">
 			<h1>CSS Declarators</h1>
 			
 			<p>*properties</p>
