@@ -96,6 +96,9 @@ h1{
     font-weight: bold;
     font-size: 50px;
     margin: 0;
+	text-align: center;
+	display: inline-block;
+	border-bottom: 3.5px solid #e8491d;
 }
 
 h2{
