@@ -1,12 +1,12 @@
 body{
-	font-family:  Abril Fatface;
+  font-family:  Abril Fatface;
     font-size: 15px;
     line-height: 1.5;
     padding: 0;
     margin: 0;
     text-align: center;
     color: black;
-	font-weight: bold;
+  font-weight: bold;
 }
 .container{
     width: 80%;
@@ -25,7 +25,7 @@ header{
     border-bottom: #e8491d 3px solid;
 }
 header a{
-	font-size: 18px;
+  font-size: 18px;
     color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
@@ -35,7 +35,7 @@ header a{
 header li{
     float: left;
     display: inline;
-    padding:  0 20px 0 20px; 	
+    padding:  0 20px 0 20px;  
 }
 header #branding{
     float: left;
@@ -65,10 +65,10 @@ html {
 
 
 h1 {
-	text-align: center;
-	display: inline-block;
+  text-align: center;
+  display: inline-block;
     border-bottom: 5px solid #e8491d;
-	font-size: 50px;
+  font-size: 50px;
 }
 .column {
   float: left;
@@ -83,12 +83,12 @@ img.id{
 }
 
 .row{
-	padding-top: 20px;
-	padding-left: 28px;
+  padding-top: 20px;
+  padding-left: 28px;
 }
 
 .otherRow{
-	padding-left: 320px;
+  padding-left: 320px;
 }
 
 @media (max-width: 650px) {
