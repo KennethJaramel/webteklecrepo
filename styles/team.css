@@ -1,5 +1,4 @@
 body{
-<<<<<<< HEAD
   font-family:  Abril Fatface;
     font-size: 15px;
     line-height: 1.5;
@@ -8,16 +7,6 @@ body{
     text-align: center;
     color: black;
   font-weight: bold;
-=======
-	font-family:  Abril Fatface;
-	font-size: 15px;
-	line-height: 1.5;
-	padding: 0;
-	margin: 0;
-	text-align: center;
-	color: black;
-	font-weight: bold;
->>>>>>> dc35878c9c0895d08a6c005bec14290d084be6cd
 }
 .container{
     width: 80%;
@@ -36,7 +25,7 @@ header{
     border-bottom: #e8491d 3px solid;
 }
 header a{
-  font-size: 18px;
+     font-size: 18px;
     color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
@@ -44,9 +33,13 @@ header a{
     text-shadow: 0.035in 0.06in 0.06944444444444in rgb( 0, 0, 0 );
 }
 header li{
+    font-family: Abril Fatface;
+    font-size: 12px;
     float: left;
     display: inline;
-    padding:  0 20px 0 20px;  
+    padding:  0 20px 0 20px; 
+    font-weight: bold;  
+    text-shadow: 0.035in 0.06in 0.06944444444444in rgb( 0, 0, 0 ); 
 }
 header #branding{
     float: left;
@@ -76,17 +69,10 @@ html {
 
 
 h1 {
-<<<<<<< HEAD
   text-align: center;
   display: inline-block;
     border-bottom: 5px solid #e8491d;
   font-size: 50px;
-=======
-	text-align: center;
-	display: inline-block;
-	border-bottom: 5px solid #e8491d;
-	font-size: 50px;
->>>>>>> dc35878c9c0895d08a6c005bec14290d084be6cd
 }
 .column {
   float: left;
