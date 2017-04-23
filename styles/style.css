@@ -8,7 +8,6 @@ body{
     text-align: center;
     color: #ffffff;
     font-weight: bold;  
-    text-shadow: 0.035in 0.06in 0.06944444444444in rgb( 0, 0, 0 ); 
 }
 .container{
     width: 80%;
@@ -60,7 +59,7 @@ header a:hover{
 	background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-	height: 90vh;
+	height: 84vh;
 }
 
 i {
@@ -68,23 +67,23 @@ i {
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 3px;
-  margin: 75px;
 }
 
 .down {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
+    margin: 30px;
 }
 
 #showcase h1{
-    text-align: center;
-	color: rgb( 232, 73, 29 );
-    margin-top: 100px;
-    font-size: 130px;
-    margin-bottom: 10px;
-	z-index: 1;
-	-webkit-text-stroke: 3px black;
-	text-shadow: 0.035in 0.06in 0.06944444444444in rgb( 0, 0, 0 );
+  text-align: center;
+  color: rgb( 232, 73, 29 );
+  margin-top: 100px;
+  font-size: 130px;
+  margin-bottom: 10px;
+  z-index: 1;
+  -webkit-text-stroke: 3px black;
+  text-shadow: 0.035in 0.06in 0.06944444444444in rgb( 0, 0, 0 );
 }
 
 p{
