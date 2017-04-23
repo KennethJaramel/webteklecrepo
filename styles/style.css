@@ -4,17 +4,11 @@ body{
     line-height: 1.5;
     padding: 0;
     margin: 0;
-<<<<<<< HEAD
-    background-color: dimgrey;
+    background-color: white;
     text-align: center;
     color: #ffffff;
     font-weight: bold;  
-    text-shadow: 0.035in 0.06in 0.06944444444444in rgb( 0, 0, 0 );
-=======
-    text-align: center;
-    color: #ffffff;
-    font-weight: bold;  
->>>>>>> dc35878c9c0895d08a6c005bec14290d084be6cd
+    text-shadow: 0.035in 0.06in 0.06944444444444in rgb( 0, 0, 0 ); 
     height: 100vh;
 }
 .container{
@@ -65,8 +59,8 @@ header a:hover{
 #showcase{
 	background: url("../images/background/showcase.jpg");
 	background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+  background-attachment: fixed;
+  background-size: cover;
 	height: 90vh;
 }
 
@@ -75,7 +69,7 @@ i {
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 3px;
-  margin: 230px;
+  margin: 75px;
 }
 
 .down {
