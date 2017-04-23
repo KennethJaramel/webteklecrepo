@@ -9,7 +9,6 @@ body{
     color: #ffffff;
     font-weight: bold;  
     text-shadow: 0.035in 0.06in 0.06944444444444in rgb( 0, 0, 0 ); 
-    height: 100vh;
 }
 .container{
     width: 80%;
