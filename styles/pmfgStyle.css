@@ -96,6 +96,12 @@ h1{
     font-weight: bold;
     font-size: 50px;
     margin: 0;
+<<<<<<< HEAD
+=======
+	text-align: center;
+	display: inline-block;
+	border-bottom: 3.5px solid #e8491d;
+>>>>>>> dc35878c9c0895d08a6c005bec14290d084be6cd
 }
 
 h2{

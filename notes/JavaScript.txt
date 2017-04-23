@@ -1,0 +1,111 @@
+ Java Script  
+  - imperative programming language  
+  - sequence of statement  
+  - sequence of instructions that modify  
+  - dynamically type language 
+    - never designate types  
+   - defacto programming language for the client side  
+   - eg var x=100;//number   
+    x = hello; //then become a string   
+    function max (x,y){ //declaring a function to return type   
+    valid //max(5,10) || max(‘hi’, ‘hello’) || max (0, true) 
+  - DOM not part of Javascript  
+  - keywords: 
+    - var   
+     - let – only available within the block   
+     - const – constant declaration; cant re-asign it to other
+   - eg <script> //top level code   
+      var x=100; //property   
+      * let x = 100; //not get an error, just create it 
+      function f(){ //function level code    
+      var x = 200; //local variable; doesn’t exist outside of the function     
+      - //function scope variable   
+      } let x = 200; //only available in this part only; in this block only    
+          - block local variables 
+Java   
+   - safe, very rigid
+- JavaScript 
+   - flexible, know what you are doing 
+- Client-side Java Script 
+    - MDN – Mozilla Developer Network   
+    - ECMAScript (Standard)   
+    - 3 Kinds of putting the JavaScript 
+      - <- externally link -> (there’s an defer attribute)    
+      - <- embedded script -> (execute as it is encountered)    
+      - <- inline script -> 
+      ~ parse the engine starting from the top and fetch the .js (compile -> execute)   
+      ~ put code on the script 
+          - top – level tool     
+            <script>      
+              console.log (‘embedded script…’);      
+             function callMe(){       
+             console.log (‘you called…’);      
+             }     
+            </script> 
+            <buttononclick = ‘console.log(‘embedded script…’); callMe()’> 
+- defer attribute 
+    - from the top and when it gets through it (|) will compile -> execute
+    - start fetching and not wait until execute fully done 
+    - eg ~~ hello 
+    - <script> defer type = ‘text/javascript’ src = ‘script.js’> 
+- async attribute 
+    - continue rendering the document, but when it is available, it executes and compile it. 
+    - eg ~~~ hello
+    - <script type = ‘text/javascript’ src = ‘script.js’> //up or down 
+    - <noscript> no scripting support </noscript> ~no support for  scripting
+ - pre-defined object 
+    - window (global object)   [window.screen.width] 
+      - navigator – vendor, appversion 
+      - screen – width, availHeight 
+      - document – getElementById, childNodes 
+        Examples 
+          - document.getElementById(‘h’) 
+          - h.innerText = ‘hi’ 
+          - h.innerHTML = ‘hi <em> there </em>’ 
+          - h.textContent 
+           -h.title 
+           -h.lang        
+           -h[‘lang’] = ‘en.us’        
+           - h.data-extra 
+              - not valid character in name of javascript 
+- get/set – on normal attribute 
+  - h.setAttribute (‘data-extra’, ‘value’) 
+    - use if not part of … 
+  - h.get Attribute (‘data-extra’) 
+  - h.style = ‘color: blue’ 
+    - create an inline style        
+    - available (all) on the style attribute 
+    - all values (if properties) must assign as a string (‘hi’)        
+  - h.style.fontSize = ‘3em’ 
+- attribute name        
+  - h.className = ‘green-text’ 
+  - document.querySelector(‘p’)         
+        - return the first element that matches it 
+  - document.querySelectorAll(‘p’) /(‘p:first-child’)/ 
+      (‘p:first-of-type’) /    (‘h1+p’) 
+              - first’s p    - follow h1 
+  - s.querySelectorAll(‘p’)         
+    - all with ‘s’ element 
+  - s.matches (‘p’) //=false        
+    - elements not paragraph 
+  - doctype: document.childNodes         
+             document.children //=html
+             document.head.childNodes            //=title, style, tex
+           
+           
+           
+           
+           
+           
+           
+           
+           
+    
+    
+    
+    
+    
+    
+    
+    
+    

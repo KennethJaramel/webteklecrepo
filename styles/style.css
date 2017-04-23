@@ -4,11 +4,17 @@ body{
     line-height: 1.5;
     padding: 0;
     margin: 0;
+<<<<<<< HEAD
     background-color: dimgrey;
     text-align: center;
     color: #ffffff;
     font-weight: bold;  
     text-shadow: 0.035in 0.06in 0.06944444444444in rgb( 0, 0, 0 );
+=======
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;  
+>>>>>>> dc35878c9c0895d08a6c005bec14290d084be6cd
     height: 100vh;
 }
 .container{
@@ -61,10 +67,23 @@ header a:hover{
 	background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-	height: 100vh;
+	height: 90vh;
 }
 
-#showcase h2{
+i {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  margin: 230px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+#showcase h1{
     text-align: center;
 	color: rgb( 232, 73, 29 );
     margin-top: 100px;
@@ -72,4 +91,39 @@ header a:hover{
     margin-bottom: 10px;
 	z-index: 1;
 	-webkit-text-stroke: 3px black;
+	text-shadow: 0.035in 0.06in 0.06944444444444in rgb( 0, 0, 0 );
+}
+
+p{
+	color: black;
+}
+
+.containerForNotes{
+	float: left;
+	padding-top: 30px;
+	padding-left: 165px;
+}
+
+.containerForNotes h1{
+	color: #000;
+	-webkit-text-stroke: 0.5px black;
+	border-bottom: 5px solid #e8491d;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
 }
