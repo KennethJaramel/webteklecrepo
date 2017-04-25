@@ -5,7 +5,7 @@
     <title>Webtek</title>
     <meta name="viewport" content="width-device-width">
     <link href= "styles/style.css" rel= "stylesheet" type= "text/css" media= "screen" />
-	<link rel = "icon" href = "images/webtekL.png">
+    <link rel = "icon" href = "images/webtekL.png">
 </head>
 <body>
     <header>
@@ -19,83 +19,45 @@
                     <li><a href="subpage/prelim.html">Prelim</a></li>
                     <li><a href="subpage/midterm.html">Midterm</a></li>
                     <li><a href="#">Finals</a></li>
-					<li><a href= "subpage/glossary.html">Glossary</a></li>
+                    <li><a href= "subpage/glossary.html">Glossary</a></li>
                     <li><a href="subpage/Team.html">Our Team</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    <div id="showcase">
+    <section id="showcase" class= "fade">
         <div class="container">
-            <div class="slideshow-container">
-            <div class="mySlides fade">
-  <img src="images/background/showcase.jpg" style="width:100%" alt= "Gadgets">
-  <div class="text">Web Systems and Technologies</div>
-</div>
-            <div class="mySlides fade">
-  <img src="images/background/showcase2.jpg" style="width:100%" alt= "eyeglass">
-  <div class="text">Web Systems and Technologies</div>
-</div>
-            <div class="mySlides fade">
-  <img src="images/background/showcase3.jpg" style="width:100%" alt= "keyboard with a word enter">
-  <div class="text">Web Systems and Technologies</div>
-</div>
+            <h1>Web Systems and Technologies</h1>
+            <a href="#notes"><i class="down"></i></a>
         </div>
-<div style="text-align:center">
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-</div>
-        </div>
-        <script type = "text/javascript">
-var slideIndex = 0;
-showSlides();
-
-function showSlides() {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
-    for (i = 0; i < slides.length; i++) {
-       slides[i].style.display = "none";  
-    }
-    slideIndex++;
-    if (slideIndex> slides.length) {slideIndex = 1}    
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active2", "");
-    }
-    slides[slideIndex-1].style.display = "block";  
-    dots[slideIndex-1].className += " active2";
-    setTimeout(showSlides, 5000); // Change image every 5 seconds
-}
-</script>
-    </div>
-	<div id = "notes" class= "fade">
+    </section>
+    <div id = "notes" class= "fade">
         <div class="containerForNotes">
             <img src = "images/webtekL.png" alt= "Book">
-			<h1>Prelim Topics</h1>
-			<p>Internet</p>
-			<p>Network</p>
-			<p>Protocols</p>
-			<p>Nodes</p>
-			<p>WWW</p>
-			<p>HTML</p>
-			<p>HTTP and HTTPS</p>
-			<p>Servers</p>
-			<p>Categories of Headers</p>
-			<p>Status Code</p>
+            <h1>Prelim Topics</h1>
+            <p>Internet</p>
+            <p>Network</p>
+            <p>Protocols</p>
+            <p>Nodes</p>
+            <p>WWW</p>
+            <p>HTML</p>
+            <p>HTTP and HTTPS</p>
+            <p>Servers</p>
+            <p>Categories of Headers</p>
+            <p>Status Code</p>
         </div>
-		 <div class="containerForNotes">
+         <div class="containerForNotes">
             <img src = "images/webtekL.png" alt= "Book">
-			<h1>Midterm Topics</h1>
-			<p>HTML</p>
-			<p>CSS</p>
-			<p>CSS Frameworks and Preprocessors</p>
-			<p>XHTML</p>
-			<p>Javascript</p>
+            <h1>Midterm Topics</h1>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>CSS Frameworks and Preprocessors</p>
+            <p>XHTML</p>
+            <p>Javascript</p>
         </div>
-		 <div class="containerForNotes">
+         <div class="containerForNotes">
             <img src = "images/webtekL.png" alt= "Book">
-			<h1>Finals Topics</h1>
+            <h1>Finals Topics</h1>
         </div>
     </div>
 </body>

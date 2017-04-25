@@ -1,16 +1,13 @@
 body{
     box-sizing:border-box;
-    font-family: 'Abril Fatface';
+    font-family: Abril Fatface;
     line-height: 1.5;
     padding: 0;
     margin: 0;
-    background-color: dimgrey;
+    background-color: white;
     text-align: center;
     color: #ffffff;
     font-weight: bold;  
-}
-.mySlides {
-    display:none;
 }
 .container{
     width: 80%;
@@ -58,10 +55,24 @@ header a:hover{
     font-weight: bold;
 }
 #showcase{
-	background-repeat: no-repeat;
+  background: url("../images/background/showcase.jpg");
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-	height: 84vh;
+  height: 85vh;
+}
+
+i {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin: 30px;
 }
 
 #showcase h1{
@@ -76,19 +87,19 @@ header a:hover{
 }
 
 p{
-	color: black;
+  color: black;
 }
 
 .containerForNotes{
-	float: left;
-	padding-top: 30px;
-	padding-left: 165px;
+  float: left;
+  padding-top: 30px;
+  padding-left: 165px;
 }
 
 .containerForNotes h1{
-	color: #000;
-	-webkit-text-stroke: 0.5px black;
-	border-bottom: 5px solid #e8491d;
+  color: #000;
+  -webkit-text-stroke: 0.5px black;
+  border-bottom: 5px solid #e8491d;
 }
 
 /* Fading animation */
@@ -107,37 +118,4 @@ p{
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
-}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  max-height: 515px;
-  position: relative;
-  margin: auto;
-}
-/* Caption text */
-.text {
-  color: rgb( 232, 73, 29 );
-  font-size: 60px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-  z-index: 1;
-  -webkit-text-stroke: 3px black;
-}
-/* The dots/bullets/indicators */
-.dot {
-  height: 13px;
-  width: 13px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-.active2 {
-  background-color: #717171;
 }
