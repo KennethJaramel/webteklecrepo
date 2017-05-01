@@ -132,6 +132,18 @@ h4{
     display: block;
 }
 
+/* footer */
+footer {
+  position: relative;
+  margin-top: -180px; /* negative value of footer height */
+  height: 50px;
+  font-size: 20px;
+  clear: both;
+  background-color: dimgrey;
+  text-align: center;
+  font-weight: bold;
+}
+
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
@@ -148,4 +160,27 @@ h4{
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
+}
+
+/*return to the top arrow button*/
+#btn {
+    display: none;
+    width: auto; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99;
+    border: none; 
+    outline: none; 
+    background-color: rgba(0, 0, 0, 0.80); 
+    color: white;
+    cursor: pointer; 
+    padding: 10px 20px 10px 20px;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 5px; 
+}
+
+#btn:hover {
+    background-color: rgba(168, 52, 21, 0.8);
 }
