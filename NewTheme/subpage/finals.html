@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Webtek Notes | Finals</title>
+    <meta name="viewport" content="width-device-width">
+    <link rel="stylesheet" href= "style.css">
+	<link rel = "icon" href = "../images/webtekL.png">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <img src = "../images/webtek.png" width = 240 height = 50 alt= "webtek">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Prelim.html">Prelim</a></li>
+                    <li><a href="midterm.html">Midterm</a></li>
+                    <li class="active"><a href="#">Finals</a></li>
+					<li><a href= "glossary.html">Glossary</a></li>
+                    <li><a href="Team.html">Our Team</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+	
+	<div id="php" class= "fade">
+		<h1>SESSION HANDLING</h1>
+		<p>Request coming from different users.</p>
+		<p>Extension:</p>
+		<p>Cookie - small text file that contains information.</p>
+		
+	</div>
+	<div id="php" class= "fade">
+		<h1>PHP</h1>
+		<p>To use PHP install first PHP support.</p>
+		<p>Apache alone does not have php module.</p>
+		<p>PHP is a general purpose programming language and at early age php is procedural.</p>
+		<br>
+		<p>$GLOBALS- used to access global variables from anywhere in the PHP script</p>
+		<p>$SERVERS- it is an array containing information such as headers,paths, and script locations.</p>
+		<p>$GET and $POST- both used to collect form-data.</p>
+	</div>
+	
+	<div id="js" class= "fade">
+		<h1>JAVASCRIPT</h1>
+		<p>NODE JS-  is an open-source, cross-platform JavaScript run-time environment for executing JavaScript code server-side.</p>
+		<p>MEAN STACK (MONGO Db, EXPRESS, ANGULAR, NODE JS)</p>
+		<p>npm (node package manage)</p>
+		<p>Sample code to start up:</p>
+		<p>var http = requires('http'); <br>
+		   var server = http.createServer(); <br>
+		    server.listen(81);</p>
+	</div>
+        <footer>
+
+            <p>Web System and Technology &copy; 2017</p>
+
+        </footer>
+
+    <button onclick="topFunction()" id="btn" title="Return to the top">↑</button>
+
+    <script type="text/javascript">
+        // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("btn").style.display = "block";
+        } else {
+            document.getElementById("btn").style.display = "none";
+        }
+    }
+
+
+    function topFunction() {
+        document.body.scrollTop = 0; // For Chrome, Safari and Opera 
+        document.documentElement.scrollTop = 0; // For IE and Firefox
+    }
+    </script>
+</body>
+    </html>
