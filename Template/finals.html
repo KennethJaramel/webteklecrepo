@@ -23,7 +23,7 @@
 
     <!-- Theme CSS -->
     <link href="css/agency.min.css" rel="stylesheet">
-    <link href="styles/pmfgStyle.css" rel="stylesheet">
+    <link href="styles/pmfgStyle.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -75,60 +75,77 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-	
-	<div id="php" class= "fade">
-		<h1>SESSION HANDLING</h1>
-		<p>Request coming from different users.</p>
-		<p>Extension:</p>
-		<p>Cookie - small text file that contains information.</p>
-		
-	</div>
-	<div id="php" class= "fade">
-		<h1>PHP</h1>
-		<p>To use PHP install first PHP support.</p>
-		<p>Apache alone does not have php module.</p>
-		<p>PHP is a general purpose programming language and at early age php is procedural.</p>
-		<br>
-		<p>$GLOBALS- used to access global variables from anywhere in the PHP script</p>
-		<p>$SERVERS- it is an array containing information such as headers,paths, and script locations.</p>
-		<p>$GET and $POST- both used to collect form-data.</p>
-	</div>
-	
-	<div id="js" class= "fade">
-		<h1>JAVASCRIPT</h1>
-		<p>NODE JS-  is an open-source, cross-platform JavaScript run-time environment for executing JavaScript code server-side.</p>
-		<p>MEAN STACK (MONGO Db, EXPRESS, ANGULAR, NODE JS)</p>
-		<p>npm (node package manage)</p>
-		<p>Sample code to start up:</p>
-		<p>var http = requires('http'); <br>
-		   var server = http.createServer(); <br>
-		    server.listen(81);</p>
-	</div>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">Welcome!</div>
+                <div class="intro-heading">Web Systems and Technologies</div>
+                <a href="#topics" class="page-scroll btn btn-xl">Prelim Lessons Click Here</a>
+            </div>
+        </div>
+    </header>
+
+    <div class= "lessons menu ">
+            <ul>
+                <li><a href="#session">Session Handling</a></li>   
+                <li><a href="#php">PHP</a></li>
+                    <li><a href="#js">JavaScript</a></li>
+            </ul>
+    </div>
+    <div class= "lessons content">
+            
+    <div id="session" class= "">
+        <h1>SESSION HANDLING</h1>
+        <p>Request coming from different users.</p>
+        <p>Extension:</p>
+        <p>Cookie - small text file that contains information.</p>
+        
+    </div>
+    <div id="php" class= "">
+        <h1>PHP</h1>
+        <p>To use PHP install first PHP support.</p>
+        <p>Apache alone does not have php module.</p>
+        <p>PHP is a general purpose programming language and at early age php is procedural.</p>
+        <br>
+        <p>$GLOBALS- used to access global variables from anywhere in the PHP script</p>
+        <p>$SERVERS- it is an array containing information such as headers,paths, and script locations.</p>
+        <p>$GET and $POST- both used to collect form-data.</p>
+    </div>
+    
+    <div id="js" class= "">
+        <h1>JAVASCRIPT</h1>
+        <p>NODE JS-  is an open-source, cross-platform JavaScript run-time environment for executing JavaScript code server-side.</p>
+        <p>MEAN STACK (MONGO Db, EXPRESS, ANGULAR, NODE JS)</p>
+        <p>npm (node package manage)</p>
+        <p>Sample code to start up:</p>
+        <p>var http = requires('http'); <br>
+           var server = http.createServer(); <br>
+            server.listen(81);</p>
+    </div>
         <footer>
 
             <p>Web System and Technology &copy; 2017</p>
 
         </footer>
 
-    <button onclick="topFunction()" id="btn" title="Return to the top">↑</button>
+    <!-- jQuery -->
+    <script src="styles/jquery/jquery.min.js"></script>
 
-    <script type="text/javascript">
-        // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function() {scrollFunction()};
+    <!-- Bootstrap Core JavaScript -->
+    <script src="styles/bootstrap/js/bootstrap.min.js"></script>
 
-    function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            document.getElementById("btn").style.display = "block";
-        } else {
-            document.getElementById("btn").style.display = "none";
-        }
-    }
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
 
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
 
-    function topFunction() {
-        document.body.scrollTop = 0; // For Chrome, Safari and Opera 
-        document.documentElement.scrollTop = 0; // For IE and Firefox
-    }
-    </script>
+    <!-- Theme JavaScript -->
+    <script src="js/agency.min.js"></script>
+
 </body>
-    </html>
+
+</html>
