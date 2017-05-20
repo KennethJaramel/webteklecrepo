@@ -1,5 +1,5 @@
 body{
-     background: #4699b7; 
+     background: #94cfc9; 
 }
 .lessons{
     float: left;
@@ -33,13 +33,13 @@ body{
 }
 
 h1{
-    font-family: Abril Fatface;
-    font-weight: bold;
-    font-size: 50px;
-    margin: 0;
+  font-family: Abril Fatface;
+  font-weight: bold;
+  font-size: 50px;
+  margin: 0;
   text-align: center;
   display: inline-block;
-  border-bottom: 3.5px solid #e8491d;
+  border-bottom: 3.5px solid #183641;
 }
 
 h2{
