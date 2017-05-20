@@ -88,21 +88,55 @@
 
     <div id="topics" class= "lessons menu ">
             <ul>
+                <li><a href="#css">Client Side Web Scripts</a></li>
+                <li><a href="#sss">Server Side Scripts</a></li>
                 <li><a href="#session">Session Handling</a></li>   
                 <li><a href="#php">PHP</a></li>
-                    <li><a href="#js">JavaScript</a></li>
+                <li><a href="#js">JavaScript</a></li>
+                <li><a href="#njs">Node JS</a></li>
+                <li><a href="#jsp">Java Server Pages</a></li>
+                <li><a href="#mvc">Model-View-Controller</a></li>
+                <li><a href="#servlets">Servlets</a></li>
             </ul>
     </div>
     <div class= "lessons content">
+
+    <div id="css">
+        <h1>Client Side Web Scripts</h1>
+        <p>-Allows programs (i.e scripts) to be downloaded from a web server and executed in the client environment(e.g browser)</p>
+        <p class="subtitle">Common Client-Side Scripting Technologies</p>
+            <p>-JavaScript, ECMAScript, JScript</p>
+            <p>-Java Applets, AtiveX Controls, Flash Animations, Mcirosoft Silverlight, Adobe Interaction, document and page navigation</p>
+            <p>-VBScript, ActionScript</p>
+        <p class="subtitle">Common Uses:</p>
+            <p>Dynamic (X)HTML</p>
+                <p>-Page establishments, visual "effects", content generation and manipulation, user interaction, document and page navigation</p>
+            <p>-Client-side form data validation</p>
+        <p class="subtitle">Common Issues:</p>
+            <p>Browser support</p>
+                <p>-No scripting support</p>
+                <p>-Scripting disabled</p>
+                <p>Plugin availability</p>
+    </div>
+
+    <div id="sss">
+        <h1>Server Side Scripts</h1>
+        <p class="subtitle">JAVA</p>
+        <p class="subtitle">Servlets or JSP (Java Server Pages)</p>
+        <p class="subtitle">Node JS</p>
+    </div>
             
-    <div id="session" class= "">
+    <div id="session">
         <h1>SESSION HANDLING</h1>
         <p>Request coming from different users.</p>
         <p>Extension:</p>
         <p>Cookie - small text file that contains information.</p>
-        
+        <h1>SESSION Tracking</h1>
+        <p>---support is implemented either cookies or URL - rewriting</p>
+        <p>---obtaining session object from the current request</p>
     </div>
-    <div id="php" class= "">
+
+    <div id="php">
         <h1>PHP</h1>
         <p>To use PHP install first PHP support.</p>
         <p>Apache alone does not have php module.</p>
@@ -120,18 +154,75 @@
 		<p>$_SESSION-  are wonderful ways to pass variables.</p>
     </div>
     
-    <div id="js" class= "">
+    <div id="js">
          <h1>JAVASCRIPT</h1>
-		<p>JavaScipt- is the programming language of HTML and the Web.</p>
-		<br>
-		<h1>NODE JS</h1>
-        <p>NODE JS-  is an open-source, cross-platform JavaScript run-time environment for executing JavaScript code server-side.</p>
-        <p>MEAN STACK (MONGO Db, EXPRESS, ANGULAR, NODE JS)</p>
-        <p>npm (node package manage)- it is the package manager for JavaScript and the world’s largest software registry. </p>
-        <p>Sample code to start up:</p>
-        <p>var http = requires('http'); <br>
-           var server = http.createServer(); <br>
-            server.listen(81);</p>
+           <p>-is the programming language of HTML and the Web.</p>
+           <p>-Developed by CIRCA 1995 by Brendan Eich at Netscape Communications as the scripting language <br>for Netscape Navigator Browser</p>
+        <p class="subtitle">Framworks:</p>
+        <p>-script.aculo.us, jQuery, MooTools, Prototype, Dojo Toolkit</p>
+        <p class="subtitle">Features</p>
+        <p>Paradigm:</p>
+            <p>-Object-oriented (prototype-based), functional, imperative scripting language</p>
+        <p>Java-/C-like syntax</p>
+            <p> --Implicit semicolon insertion for statement termination</p>
+            <p> --Identifiers are alphanumeric,_, and $ characters
+            <p> --Single-line (//) or block (/**/) comments</p>
+        <p>Type systems and variable scoping rules:</p>
+            <p> -Dynamic(aka loose or weak) typing</p>
+            <p> -Global (aka top-level) or local scopes</p>
+            <p> -Data Types:</p>
+                <p> Primitive Types:</p>
+                    <p>     --Numbers</p>
+                    <p>     --Booleans</p>
+                    <p>     --Strings</p>
+                    <p>     --Undefined and Null</p>
+    </div>
+    <div id="njs">
+        <h1>NODE JS</h1>
+            <p>NODE JS-  is an open-source, cross-platform JavaScript run-time environment for executing JavaScript code server-side.</p>
+            <p>MEAN STACK (MONGO Db, EXPRESS, ANGULAR, NODE JS)</p>
+            <p>npm (node package manage)- it is the package manager for JavaScript and the world’s largest software registry. </p>
+            <p>Sample code to start up:</p>
+            <p>var http = requires('http'); <br>
+               var server = http.createServer(); <br>
+                server.listen(81);</p>
+    </div>
+    <div id="jsp">
+        <h1>Java Server Pages</h1>
+            <p>--Simply an HTML web page that contains additional bits of code that <br>execute applictaion logic to generate dynamic content.</p>
+            <p>--Java Server Pages Actions (JSP tags) perform a variety of functions and extend the capabilities of JSP. </p>
+            <p>--Java Server Pages Actions use XML-like syntax, and are used to manage JavaBeans component. </p>
+            <p>--Directives are instructions that are processed by the JSP engine when the page is compiled to a servlet. </p>
+            <p>--Directives are used to set page-level instructions, insert data from external files, and specify custom tag libraries</p>
+            <p>
+    </div>
+    <div id="mvc">
+        <h1>Model-View-Controller</h1>
+            <p class="subtitle">Model</p>
+                <p>--Represents business objects (logic and state)</p>
+            <p class="subtitle">View</p>
+                <p>--Presentation of the model in some appropriate way</p>
+            <p class="subtitle">Controller</p>
+                <p>--Mediates application flow</p>
+            <p class="subtitle">Sample Web MVC Framework</p>
+                <p>--JavaBeans for the model</p>
+                <p>--JSPs for the view</p>
+                <p>--Servlets for the controller</p>
+    </div>
+    <div id="servlets">
+        <h1>Servlets</h1>
+            <p>--Java Object based on the Servlet API</p>
+            <p>--Runs in a server application to answer client requests; <br>technically, servlets are not tied to a specific client-server protocol, but they are most commonly used with HTTP and </br>the term "servlet" is often used in the context of an “HTTP Servlet”</p>
+            <p>--Web-tier components in the Java EE architecture.</p>
+            <p>--Runs in, and is managed by, a web-tier container called the „Servlet Container‟</p>
+            <p>--Mapped to URLs to which clients send requests</p>
+        <p class="subtitle">Servlet Processing</p>
+            <p>--Client sends a request to a web server URL that is mapped to a servlet. Web server passes on the request to the servlet container</p>
+            <p>--Servlet container checks if servlet is already loaded</p>
+            <p>If it is not yet loaded, servlet container loads the servlet class and instantiates the servlet, and calls its init method.</p>
+            <p>Servlet container invokes the servlet‟s service method, passing request and response objects as arguments</p>
+            <p>Servlet processes the request using the response object to create the response, </br>which is returned by the servlet container to the web server, which in turn sends the response to the client</p>
+            <p>Subsequent request to the servlet will not require servlet re-instantiation, </br>unless the servlet has been unloaded; before a servlet is unloaded, the servlet container invokes its destroy method.</p>
     </div>
     </div>
         <footer>
