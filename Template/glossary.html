@@ -23,7 +23,7 @@
 
     <!-- Theme CSS -->
     <link href="css/agency.min.css" rel="stylesheet">
-    <link href="pmfgStyle.css" rel="stylesheet">
+    <link href="styles/pmfgStyle.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -118,26 +118,22 @@
 
         </footer>
 
-    <button onclick="topFunction()" id="btn" title="Return to the top">↑</button>
+    <!-- jQuery -->
+    <script src="styles/jquery/jquery.min.js"></script>
 
-    <script type="text/javascript">
-        // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function() {scrollFunction()};
+    <!-- Bootstrap Core JavaScript -->
+    <script src="styles/bootstrap/js/bootstrap.min.js"></script>
 
-    function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            document.getElementById("btn").style.display = "block";
-        } else {
-            document.getElementById("btn").style.display = "none";
-        }
-    }
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
 
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
 
-    function topFunction() {
-        document.body.scrollTop = 0; // For Chrome, Safari and Opera 
-        document.documentElement.scrollTop = 0; // For IE and Firefox
-    }
+    <!-- Theme JavaScript -->
+    <script src="js/agency.min.js"></script>
     </script>
     
 	</body>
-	</html>
+</html>
